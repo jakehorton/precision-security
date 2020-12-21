@@ -1,0 +1,138 @@
+// Lato
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap");
+
+//  Satisfy
+@import url("https://fonts.googleapis.com/css2?family=Satisfy&display=swap");
+
+.lato {
+  font-family: "Lato", sans-serif;
+}
+
+.special {
+  font-family: "Satisfy", cursive;
+}
+
+$fw-light: 300;
+$fw-regular: 400;
+$fw-bold: 700;
+$fw-black: 900;
+
+.regular {
+  font-weight: $fw-regular;
+}
+
+.light {
+  font-weight: $fw-light;
+}
+
+.bold {
+  font-weight: $fw-bold;
+}
+
+.black {
+  font-weight: $fw-black;
+}
+
+.body--xs {
+  font-size: em(12);
+  line-height: 1.6;
+
+  @media (min-width: 768px) {
+    font-size: em(14);
+  }
+}
+
+.body--s {
+  font-size: em(14);
+  line-height: 1.6;
+
+  @media (min-width: 768px) {
+    font-size: em(16);
+  }
+}
+
+.body--m {
+  font-size: em(16);
+  line-height: 1.6;
+
+  @media (min-width: 768px) {
+    font-size: em(20);
+  }
+}
+
+.body--l {
+  font-size: em(20);
+  line-height: 1.6;
+
+  @media (min-width: 768px) {
+    font-size: em(24);
+  }
+}
+
+.heading--s {
+  font-size: em(16);
+
+  @media (min-width: 768px) {
+    font-size: em(18);
+  }
+}
+
+.heading--m {
+  font-size: em(14);
+
+  @media (min-width: 768px) {
+    font-size: em(18);
+  }
+}
+
+.heading--ml {
+  font-size: em(22);
+
+  @media (min-width: 768px) {
+    font-size: 3em;
+    font-weight: 500;
+  }
+}
+
+.heading--l {
+  font-size: em(26);
+  @media (min-width: 768px) {
+    font-size: em(46);
+  }
+}
+
+.heading--xl {
+  font-size: em(26);
+  @media (min-width: 768px) {
+    font-size: em(48);
+  }
+}
+
+.heading--xxl {
+  font-size: em(26);
+
+  @media (min-width: 768px) {
+    font-size: em(40);
+  }
+
+  @media (min-width: 1024px) {
+    font-size: em(60);
+  }
+}
+
+.center_text {
+  text-align: center;
+}
+
+.uppercase {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.smoothed {
+  -webkit-font-smoothing: antialiased;
+}
