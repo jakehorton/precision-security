@@ -1,15 +1,29 @@
+header {
+  height: 80px;
+  position: fixed;
+  width: 100%;
+  background-color: white;
+  z-index: 10;
+
+}
+
+.logo {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
 nav {
   display: flex;
   justify-content: space-between;
   padding: 1em 0;
-  // position: fixed;
   // width: 66%;
+  background-color: transparent;
 
   .nav-links {
     display: flex;
 
     li {
-      padding: 0 0.5em;
+      padding: 0 1em;
     }
   }
 }

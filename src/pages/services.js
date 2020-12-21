@@ -1,6 +1,12 @@
 import React from "react"
 import { Link } from "gatsby"
 import Header from "../components/header"
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { library } from '@fortawesome/fontawesome-svg-core'
+import { faMedal, faCalendarCheck, faClock } from '@fortawesome/free-solid-svg-icons'
+
+
+library.add(faMedal, faCalendarCheck, faClock)
 
 
 const ServicesPage = () => (
@@ -9,9 +15,24 @@ const ServicesPage = () => (
         <div className="wrapper">
           <div className="row centered">
             <div className="col col-8">
-              <div className="home-banner">
+              <div className="services-banner">
                 <h1 className="heading--l">Services
                 </h1>
+
+                <div className="icons">
+                  <div className="icon">
+                    <FontAwesomeIcon icon="calendar-check" />
+                    <h3>Over 10 years experience</h3>
+                  </div>
+                  <div className="icon">
+                    <FontAwesomeIcon icon="medal" />
+                    <h3>SIA approved</h3>
+                  </div>
+                  <div className="icon">
+                    <FontAwesomeIcon icon="clock" />
+                    <h3>24/7 Comprehensive security services</h3>
+                  </div>
+                </div>
                 <p className="body--m">
                   We are a company with extensive security experience within Retail, Commercial, Industrial and Event Management. We offer a bespoke security solution for all our clients needs.                </p>
                 <p className="body--m">

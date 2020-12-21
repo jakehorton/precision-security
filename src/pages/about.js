@@ -9,7 +9,7 @@ const AboutPage = () => (
         <div className="wrapper">
           <div className="row centered">
             <div className="col col-8">
-              <div className="home-banner">
+              <div className="about-banner">
                 <h1 className="heading--l">About us
                 </h1>
                 <p className="body--m">

@@ -1,7 +1,6 @@
 import React from "react"
 import { Link } from "gatsby"
 
-
 const Header = props => (
   <header className="header">
     <div className="wrapper">

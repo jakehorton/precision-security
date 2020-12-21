@@ -9,7 +9,7 @@ const ContactPage = () => (
         <div className="wrapper">
           <div className="row centered">
             <div className="col col-8">
-              <div className="home-banner">
+              <div className="contact-banner">
                 <h1 className="heading--l">Contact us
                 </h1>
                 <p className="body--m">
@@ -22,7 +22,6 @@ const ContactPage = () => (
                 <p className="body--m">
                     Email - enquiries@precisionsecurity.co.uk
                 </p>
-  
               </div>
             </div>
           </div>

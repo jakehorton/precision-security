@@ -5,10 +5,93 @@ a {
 
 
 .home-banner {
+  padding-top: 5em;
+  height: 60vh;
+
+  .background {
+    background-image: url('../images/london.jpg');
+    background-position: 0px 0px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.5;
+    height: 60vh;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+  }
+
   h1 {
     padding: 1em 0;
+    font-weight: bold;
+    span {
+      color: $blue;
+    }
   }
   p {
+    padding-right: 11em;
+    color: $grey3;
     padding-bottom: 0.5em;
   }
+
+  .see-services {
+    margin-top: 1em;
+    padding-right: 0;
+    padding-bottom: 0.25em;
+    width: 250px;
+    border: 4px solid $blue;
+    border-radius: 20px;
+    color: white;
+    text-align: center;
+    padding: 0.25em;
+    font-weight: bold;
+    background-color: $blue;
+
+    a {
+      width: 250px;
+
+    }
+
+
+    @media (min-width: 1024px) {
+      background-color: transparent;
+      color: $blue;
+
+    }
+
+    &:hover {
+      background-color: $blue;
+      color: white;
+      transition-duration: 0.5s;
+    }
+
+  }
+
+}
+
+.icons {
+  display: flex;
+  justify-content: space-between;
+
+  .icon {
+    max-width: 25%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+
+    h3 {
+
+    }
+
+    svg {
+      height: 50px;
+      width: 50px;
+      margin-bottom: 1em;
+      color: $blue;
+    }
+  }
+}
+
+.home-body {
+  padding-top: 7em;
 }
